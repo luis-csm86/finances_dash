@@ -1,0 +1,22 @@
+<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/sgv">
+<defs>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+	.glitch {
+	font-family: 'Rubik Glitch', sans-serif;
+	font-size: 64px;
+	fill: #FF00FF;
+	filter: drop-shadow(0 0 6px #FF00FF);
+	}
+	.glitch2 {
+	font-family: 'Rubik-Glitch', sans-serif;
+	font-size: 64px;
+	fill: #03FFFF;
+	opacity: 0.6;
+	transform: translate(4px, 4px);
+	}
+	</style>
+</defs>
+<text x="20" y="80" class="glitch2">NEON APP</text>
+<text x="20" y="80" class="glitch">NEON APP</text>
+</svg>
