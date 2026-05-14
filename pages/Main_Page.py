@@ -74,7 +74,7 @@ with col_chart:
     fig.update_layout(
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family="Orbitron, sans-serif", color="#ff00ff", size=12),
+        font=dict(family="Orbitron, sans-serif", color="#000000", size=12),
         title_font=dict(family="Orbitron, sans-serif", color="#ff00ff", size=16),
         legend=dict(
             font=dict(color="#03ffff", size=11),
