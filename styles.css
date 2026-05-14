@@ -296,7 +296,7 @@ code, pre {
 
 /* --- PLOTLY CHARTS --- */
 .js-plotly-plot text {
-    fill: #ffffff !important;
+    fill: #696969 !important;
     font-family: 'Orbitron', sans-serif !important;
 }
 
