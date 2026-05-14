@@ -69,6 +69,7 @@ with col_chart:
         textfont_size=13,
         textfont_color="white",
         marker=dict(line=dict(color="#02022d", width=2)),
+        textposition='inside', textinfo='percent+label',
         hovertemplate="<b>%{label}</b><br>€%{value:,.2f}<br>%{percent}<extra></extra>",
     )
     fig.update_layout(
@@ -76,10 +77,6 @@ with col_chart:
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family="Orbitron, sans-serif", color="#000000", size=12),
         title_font=dict(family="Orbitron, sans-serif", color="#ff00ff", size=16),
-        legend=dict(
-            font=dict(color="#03ffff", size=11),
-            bgcolor="rgba(0,0,0,0)",
-        ),
         margin=dict(t=50, b=20, l=20, r=20),
     )
     st.plotly_chart(fig, width="stretch")
