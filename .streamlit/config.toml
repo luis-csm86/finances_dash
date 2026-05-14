@@ -1,0 +1,74 @@
+[theme]
+
+base = "dark"
+
+primaryColor = "#FF00FF"
+backgroundColor = "#02022D"
+secondaryBackgroundColor = "#002147"
+textColor = "#E5E4E2"
+
+redColor = "#FF00CC"
+orangeColor = "#FF7900"
+yellowColor = "#F8E602"
+blueColor = "#03FFFF"
+greenColor = "#4BFF21"
+violetColor = "#BD00FF"
+grayColor = "#F5F5F5"
+
+redTextColor = "#FF00CC"
+orangeTextColor = "#FF4F00"
+yellowTextColor = "#DFFF00"
+blueTextColor = "#0FFFFF"
+greenTextColor = "#66FF00"
+violetTextColor = "#DF00FF"
+grayTextColor = "#C0C0C0"
+
+linkColor = "#15F4EE"
+linkUnderline = true
+
+codeTextColor = "#C0FF00"
+codeBackgroundColor = "#111111"
+
+font = "'Permanent Marker':https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+headingFont ="'Rubik Glitch':https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap"
+codeFont = "'Syne Mono':https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+
+headingFontSizes = ["3rem", "2.5rem", "2rem"]
+headingFontWeights = [400]
+
+baseRadius = "small"
+borderColor = "#0fffff"
+dataframeBorderColor = "#03ffff"
+showWidgetBorder = true
+showSidebarBorder = true
+
+
+chartCategoricalColors = [
+     "#99FFFF", # blue40
+     "#00BFFF", # blue80
+     "#FF69B4", # red40
+     "#F400A1", # red80
+     "#80FF00", # green40
+     "#32CD32", # blueGreen80
+     "#FDEE00", # orange50
+     "#FFD700", # orange80
+     "#BF00FF", # purple80
+     "#d5dae5", # gray40
+]
+
+[theme.sidebar]
+
+backgroundColor = "#00152A"
+textColor = "#e5e4e2"
+borderColor = "#0fffff"
+linkColor= "#15f4ee"
+linkUnderline = false
+
+font = "'Permanent Marker':https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+headingFont = "'Rubik Glitch':https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap"
+codeFont = "'Syne Mono':https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+
+headingFontSizes = ["2rem", "1.75rem", "1.5rem"]
+headingFontWeights = [400]
+
+baseRadius = "full"
